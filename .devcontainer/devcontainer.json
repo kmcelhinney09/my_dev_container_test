@@ -7,6 +7,23 @@
 		"build": {
 			"dockerfile": "Dockerfile",
 			"context": ".."
+		},
+		"customizations": {
+			"vscode": {
+				"extensions": [
+					"ms-azuretools.vscode-docker",
+					"dsznajder.es7-react-js-snippets",
+					"thebarkman.vscode-djaneiro",
+					"dbaeumer.vscode-eslint",
+					"formulahendry.vscode-mysql",
+					"christian-kohler.npm-intellisense",
+					"esbenp.prettier-vscode",
+					"bysabi.prettier-vscode-standard",
+					"ms-python.vscode-pylance",
+					"ms-python.python",
+					"cweijan.vscode-mysql-client2"
+				]
+			}
 		}
 
 
